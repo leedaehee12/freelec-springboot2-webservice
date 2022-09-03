@@ -23,10 +23,10 @@
 <tbody id="tbody">
     {{#posts}}
         <tr>
-            <th>{{id}}</th>
-            <th>{{title}}</th>
-            <th>{{author}}</th>
-            <th>{{modifiedDate}}</th>
+            <td>{{id}}</td>
+            <td><a href="/posts/update/{{id}}">{{title}}</a></td>
+            <td>{{author}}</td>
+            <td>{{modifiedDate}}</td>
         </tr>
     {{/posts}}
     </tbody>
